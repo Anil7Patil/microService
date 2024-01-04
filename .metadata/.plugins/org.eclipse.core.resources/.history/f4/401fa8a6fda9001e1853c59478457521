@@ -1,0 +1,5 @@
+package com.micro.AdministratorService.serviceImpl;
+
+public class AdministratorServiceImpl {
+
+}

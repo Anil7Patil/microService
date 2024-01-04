@@ -1,0 +1,5 @@
+package com.micro.AdministratorService.controller;
+
+public class AdministratorController {
+
+}

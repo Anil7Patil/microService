@@ -1,0 +1,5 @@
+package com.micro.AdministratorService.service;
+
+public interface AdministratorService {
+
+}

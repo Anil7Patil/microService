@@ -1,0 +1,5 @@
+package com.micro.AdministratorService.repository;
+
+public interface AdministratorRepository extends JpaRepository<Administrator, Long> {
+    // Additional custom queries can be added here if needed
+}

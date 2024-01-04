@@ -1,0 +1,17 @@
+package com.micro.AdministratorService.model;
+
+
+@Entity
+public class Administrator {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long adminID;
+
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String phoneNumber;
+
+    // Constructors, getters, setters, and other methods
+}

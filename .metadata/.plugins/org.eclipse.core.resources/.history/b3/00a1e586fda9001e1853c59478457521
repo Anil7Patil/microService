@@ -1,0 +1,14 @@
+package com.micro.AdministratorService.service;
+
+public interface AdministratorService {
+
+    List<Administrator> getAllAdministrators();
+
+    Administrator getAdministratorById(Long adminID);
+
+    Administrator createAdministrator(Administrator administrator);
+
+    Administrator updateAdministrator(Long adminID, Administrator administrator);
+
+    void deleteAdministrator(Long adminID);
+}
